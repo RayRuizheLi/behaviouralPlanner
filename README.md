@@ -8,16 +8,16 @@ The behaviour planner system plans the set of high level driving actions/maneuve
 
 # Input
 Routing Input: 
-..* A queue of global commands
+* A queue of global commands
 
 Perception Input: 
-..* Coordinates of traffic signs
-..* Type of traffic signs
-..* Coordinates of traffic lights
-..* Traffic light signals 
-..* Stopline
-..* Coordinates of pedestrian 
-..* Other
+* Coordinates of traffic signs
+* Type of traffic signs
+* Coordinates of traffic lights
+* Traffic light signals 
+* Stopline
+* Coordinates of pedestrian 
+* Other
 # Output
 
 # Features
