@@ -40,9 +40,10 @@ This section focuses on the driving commands functionality that I worked on. It 
 
 ### Finite-state Machine Architecture
 The behavioural module uses a finite-state machine architecture. Each external and internal component is represented by a finite state machine. For example, each pedestrian, each traffic light, is represented by a finte-state machine. 
-
+<div align="center">
+  <img src="https://github.com/RayRuizheLi/behaviouralPlanner/blob/main/readmeResources/abstractStateMachine.png" alt="abstract state-machine code" title="abstract state-machine"/>
+</div>
 Each finite-state machine holds the current state and a transition graph. When a trigger event occurs, the finite-state machine transitions into the next state based on said transition graph. Since the finite statemachine is deterministic, each trigger only has one single resulting state. Here, two stat-machines will be explained in details: the ego state machine and the global command state machine. Together, these two state machine allows the behavioural planner to give driving commands.
-
 
 ### Finite-state Machine Architecture 
 
