@@ -29,11 +29,37 @@ Perception Input:
 * Signal to turn 
 * Signal to stop
 
-# Features
+# Core Features
+* Driving Commands (following lane, stop, turn, lane change) (Ray) 
+* React to pedestrian (Rowan)
+* React to traffic light (Rowan)
+* React to stop signs (Rowan) 
+
 # How it works
-# Tech/Frameworks used 
-# Features 
-# Code Example
+This section focuses on the driving commands functionality that I worked on. It will not focus on how react to pedestrian nor other features. 
+
+### Finite-state Machine Architecture
+The behavioural module uses a finite-state machine architecture. Each external and internal component is represented by a finite state machine. For example, each pedestrian, each traffic light, is represented by a finte-state machine. 
+
+Each finite-state machine holds the current state and a transition graph. When a trigger event occurs, the finite-state machine transitions into the next state based on said transition graph. Since the finite statemachine is deterministic, each trigger only has one single resulting state. Here, two stat-machines will be explained in details: the ego state machine and the global command state machine. Together, these two state machine allows the behavioural planner to give driving commands.
+
+
+### Finite-state Machine Architecture 
+
+
+* How does state machine work?
+* How does triggers work? 
+* How does transition graphs work? 
+* Briefly go over Pedestrian and Traffic Light transitions 
+* Focus on EGO statemachine and globl command state machine
+* includ code snip bits 
+# Link videos 
 # Tests
-# Credits
+* tested in carla. 
+* pretend perception is mocked by Carla
+* Routing is done in script 
+# What Next
+* Talk about maintaining scenarios and transitions 
+* Talk about dynaic obstacles such as car. 
 # Research and publications
+* link publications. 
