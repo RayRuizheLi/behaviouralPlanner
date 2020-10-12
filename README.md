@@ -45,7 +45,11 @@ The behavioural module uses a finite-state machine architecture. Each external a
 </div>
 Each finite-state machine holds the current state and a transition graph. When a trigger event occurs, the finite-state machine transitions into the next state based on said transition graph. Since the finite statemachine is deterministic, each trigger only has one single resulting state. Here, two stat-machines will be explained in details: the ego state machine and the global command state machine. Together, these two state machine allows the behavioural planner to give driving commands.
 
-### Finite-state Machine Architecture 
+### Ego State Machine 
+Ego state machine holds the state of the car. Here is an illustration of its transition graph.
+
+
+
 
 
 * How does state machine work?
