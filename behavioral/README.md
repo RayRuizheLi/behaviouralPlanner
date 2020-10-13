@@ -1,0 +1,2 @@
+### What is this?
+This directory holds code relating to the behavioral sub-sub-team. Currently our main work is focussed on synthesizing the mock structures we create in our input mocker program into an Environment object that we can pass down to the local planning team. 
