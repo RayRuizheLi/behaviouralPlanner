@@ -79,8 +79,7 @@ Global command state machine transitions to done stage since we arrived at x3, y
 Here is a [video illustrating the process described above](https://drive.google.com/file/d/1xlQ9AcMrV05qT5aWn8n0a3e9FXjuKt3q/view?usp=sharing).
 
 # What is Next 
-### Increase the amount of features
-* Talk about maintaining scenarios and transitions 
-* Talk about dynaic obstacles such as car. 
-# Research and publications
-* link publications. 
+* Increase the amount features such as other interacting with other vehicles.
+* Increase the amount of states needed. 
+* Maintaining the architecture as we encounter more scenarios.
+
